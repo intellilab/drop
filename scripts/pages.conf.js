@@ -11,7 +11,7 @@ module.exports = {
   index: {
     html: {
       title: '掉下来',
-      inlineSource: true,
+      // inlineSource: true,
       css: [
         SPECTRE,
       ],
