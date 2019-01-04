@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  text-align: center;
+}
+
+button {
+  padding: 0 20px;
+}
+
+.block {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  font-size: 20px;
+  line-height: 40px;
+  text-align: center;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  background: white;
+  transition: transform linear;
+  &-area {
+    position: relative;
+    margin: 100px auto 20px;
+    background: #eee;
+  }
+}
