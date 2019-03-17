@@ -7,10 +7,6 @@ body {
   text-align: center;
 }
 
-button {
-  padding: 0 20px;
-}
-
 .block {
   position: absolute;
   width: 40px;

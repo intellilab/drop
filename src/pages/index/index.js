@@ -1,4 +1,4 @@
-import h from '@gera2ld/jsx-dom';
+import * as React from '@gera2ld/jsx-dom';
 import {
   格子大小,
   主体,
@@ -20,7 +20,7 @@ import {
 import './style.css';
 
 const 容器 = <div className="block-area" />;
-const 按钮 = <button onClick={刷新}>重来</button>;
+const 按钮 = <a className="btn" onClick={刷新}>重来</a>;
 主体[附加](容器, 按钮);
 
 function 随机生成块块(大小, 数量) {
